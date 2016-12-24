@@ -1,0 +1,8 @@
+1
+Faster(Pat,Steve)
+5
+((Pig(y) & Slug(z)) => Faster(y,z))
+((Slimy(z) & Creeps(z)) => Slug(z))
+Pig(Pat)
+Slimy(Steve)
+Creeps(Steve)

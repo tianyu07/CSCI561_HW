@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+import os
+
+os.system('mkdir -p results')
+os.system('javac homework.java')
+for i in xrange(11):
+    os.system('cp ./Test{0}/input.txt ./input.txt'.format(i))
+    os.system('java homework')
+    print("-->On test case #{0}<--".format(i))
+    os.system('cp ./output.txt ./Test{0}/output{0}.txt'.format(i))
+    os.system('diff ./Test{0}/output.txt ./Test{0}/output{0}.txt'.format(i))
+
+os.system('rm input.txt output.txt')

@@ -1,0 +1,12 @@
+3
+Takes(Lucy,G,Spring)
+Passes(Bob,F,Spring)
+Higher(Bob,Lucy,Spring)
+7
+(Student(x)&Takes(x,F,Spring))
+((Student(x)&Takes(x,F,s)) => Passes(x,F,s))
+(Student(Bob) & Takes(Bob,G,Spring))
+((Student(y) & (~Isbob(y))) => (~Takes(y,G,Spring)))
+Isbob(Bob)
+((Score(x,G,s) & Score(y,F,s)) => Higher(x,y,s))
+(Score(x,y,s) | Score(w,t,s))

@@ -1,0 +1,5 @@
+1
+Higher(Bob,Lucy,Spring)
+2
+((Score(x,G,s) & Score(y,F,s)) => Higher(x,y,s))
+(Score(x,y,s) | Score(w,G,s))

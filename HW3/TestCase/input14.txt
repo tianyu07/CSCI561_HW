@@ -1,0 +1,5 @@
+1
+A(John, Bob)
+2
+A(x,x)
+A(x,y)

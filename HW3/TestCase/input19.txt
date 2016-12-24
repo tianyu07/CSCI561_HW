@@ -1,0 +1,5 @@
+1
+C(Alice)
+2
+((B(x,y) | A(x,y)) | A(Bob,Tom))
+((~((B(Alice,Bob) | A(Alice,Bob)) | A(Bob,Tom))) | C(Alice))

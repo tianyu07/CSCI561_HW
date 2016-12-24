@@ -1,0 +1,15 @@
+OR=1
+AND=2
+IMPLY=3
+NOT=4
+LEFTBRAC=5
+RIGHTBRAC=6
+PREDICATE=7
+NEWLINE=8
+SPACE=9
+'|'=1
+'&'=2
+'=>'=3
+'~'=4
+'('=5
+')'=6

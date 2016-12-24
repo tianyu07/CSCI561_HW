@@ -1,0 +1,6 @@
+1
+Evil(John)
+3
+((King(x) & Greedy(x)) => Evil(x))
+King(John)
+Greedy(John)

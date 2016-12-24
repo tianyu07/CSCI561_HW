@@ -1,0 +1,7 @@
+B2 Raid
+.XXOX.
+XX.OX.
+.XO.X.
+.X.OXX
+X.OX.O
+...OXX

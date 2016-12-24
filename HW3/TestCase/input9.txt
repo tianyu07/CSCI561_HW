@@ -1,0 +1,12 @@
+2
+Buy(Tom,Cookie)
+~Buy(Tom,Cookie)
+8
+((Better(x,y,z) & Hungry(x)) => Buy(x,y))
+((((~Rich(x)) & Cheap(y)) & Expensive(z)) => Better(x,y,z))
+(((Rich(x) & Cheap(x)) & Expensive(z)) => Better(x,z,y))
+(Poor(x) => ((~Rich(x)) & Hungry(x)))
+(Cheap(Cookie) & Expensive(Pizza))
+Poor(Tom)
+Rich(Jim)
+Hungry(Jim)

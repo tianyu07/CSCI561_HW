@@ -1,0 +1,7 @@
+1
+Rich(me)
+4
+(PhD(x) => HighlyQualified(x))
+(PhD(x) | EarlyEarnings(x))
+(HighlyQualified(x) => Rich(x))
+(EarlyEarnings(x) => Rich(x))
